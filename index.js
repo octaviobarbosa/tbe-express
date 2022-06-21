@@ -11,4 +11,4 @@ app.use(router);
 
 router.get('*', (req, res)  => res.status(404).send('404 - Not Found'));
 
-app.listen(port, () => console.log('Example app listening on port 3000!')) 
+app.listen(port, () => console.log('Server listening on port 3000!')) 
